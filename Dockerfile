@@ -1,6 +1,6 @@
 # Use Node.js to build the React app
-FROM node:18-alpine AS builder
-
+FROM node:18-alpine AS builder   
+  
 # Set the working directory
 WORKDIR /app
 
